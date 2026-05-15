@@ -1,0 +1,234 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "kookbot/1.0.0": {
+        "dependencies": {
+          "Kook.Net": "0.11.0"
+        },
+        "runtime": {
+          "kookbot.dll": {}
+        }
+      },
+      "Kook.Net/0.11.0": {
+        "dependencies": {
+          "Kook.Net.Commands": "0.11.0",
+          "Kook.Net.Core": "0.11.0",
+          "Kook.Net.Pipe": "0.11.0",
+          "Kook.Net.Rest": "0.11.0",
+          "Kook.Net.WebSocket": "0.11.0",
+          "Kook.Net.Webhook": "0.11.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.3",
+          "System.Linq.Async": "7.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Kook.Net.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.0.0"
+          }
+        }
+      },
+      "Kook.Net.Commands/0.11.0": {
+        "dependencies": {
+          "Kook.Net.Core": "0.11.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.3",
+          "System.Linq.Async": "7.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Kook.Net.Commands.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.0.0"
+          }
+        }
+      },
+      "Kook.Net.Core/0.11.0": {
+        "dependencies": {
+          "System.Linq.Async": "7.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Kook.Net.Core.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.0.0"
+          }
+        }
+      },
+      "Kook.Net.Pipe/0.11.0": {
+        "dependencies": {
+          "Kook.Net.Rest": "0.11.0",
+          "System.Linq.Async": "7.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Kook.Net.Pipe.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.0.0"
+          }
+        }
+      },
+      "Kook.Net.Rest/0.11.0": {
+        "dependencies": {
+          "Kook.Net.Core": "0.11.0",
+          "System.Linq.Async": "7.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Kook.Net.Rest.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.0.0"
+          }
+        }
+      },
+      "Kook.Net.Webhook/0.11.0": {
+        "dependencies": {
+          "Kook.Net.Core": "0.11.0",
+          "Kook.Net.WebSocket": "0.11.0",
+          "System.Linq.Async": "7.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Kook.Net.Webhook.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.0.0"
+          }
+        }
+      },
+      "Kook.Net.WebSocket/0.11.0": {
+        "dependencies": {
+          "Kook.Net.Core": "0.11.0",
+          "Kook.Net.Rest": "0.11.0",
+          "System.Linq.Async": "7.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Kook.Net.WebSocket.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.3": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.326.7603"
+          }
+        }
+      },
+      "System.Interactive.Async/7.0.0": {
+        "dependencies": {
+          "System.Linq.AsyncEnumerable": "10.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Interactive.Async.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.45496"
+          }
+        }
+      },
+      "System.Linq.Async/7.0.0": {
+        "dependencies": {
+          "System.Interactive.Async": "7.0.0",
+          "System.Linq.AsyncEnumerable": "10.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Linq.Async.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.45496"
+          }
+        }
+      },
+      "System.Linq.AsyncEnumerable/10.0.0": {
+        "runtime": {
+          "lib/net8.0/System.Linq.AsyncEnumerable.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "kookbot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kook.Net/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DOzY4lKKMuK6JBpxwyEUgv+k1QRxY2clS9DHqGWnSUIFeg1vZkG0ICc0M7ZhiEiPFjiHeF1uxr8rhI/9DaX+Ig==",
+      "path": "kook.net/0.11.0",
+      "hashPath": "kook.net.0.11.0.nupkg.sha512"
+    },
+    "Kook.Net.Commands/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n0QFEVQU8DGDYCaMnhrZXzjeVhv9edjFtSJBm6NntST0IIaGJMOi5ql2Pbs1pUffIzulWtR7kJI/600UMnqoxw==",
+      "path": "kook.net.commands/0.11.0",
+      "hashPath": "kook.net.commands.0.11.0.nupkg.sha512"
+    },
+    "Kook.Net.Core/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZFtdOi8UWsFmvPxiVHziHOwnBzsmgSCR/sQPF2esFNQYLY9hvnNddaD7D4XfRJqoXjKF/MEEv4MHi2EAE3CAuw==",
+      "path": "kook.net.core/0.11.0",
+      "hashPath": "kook.net.core.0.11.0.nupkg.sha512"
+    },
+    "Kook.Net.Pipe/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1j6TZ2uuFWC80lGSM+8wP18L/xYpZimNMtT/4eOROlEfAjOiTobwH02i5jb3tQizoH1Rfn+HrhKYZqhd1QbJnQ==",
+      "path": "kook.net.pipe/0.11.0",
+      "hashPath": "kook.net.pipe.0.11.0.nupkg.sha512"
+    },
+    "Kook.Net.Rest/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x6dW99lQMn5XqeLmNoEX0lQ9mzVndlpj/f+HKu7cGQ9ZcP4fndp51p8zmR1QVQionnTdE4FN82dBUnfmN2kigA==",
+      "path": "kook.net.rest/0.11.0",
+      "hashPath": "kook.net.rest.0.11.0.nupkg.sha512"
+    },
+    "Kook.Net.Webhook/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UsudKfht5BM8bhY7qRurvha3TzphvueYVkybWKRugiC+A8jlL1TxP4loWuImFdpXY1cyZI7ra7VefkstNJ7bDQ==",
+      "path": "kook.net.webhook/0.11.0",
+      "hashPath": "kook.net.webhook.0.11.0.nupkg.sha512"
+    },
+    "Kook.Net.WebSocket/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZFzu9WFiHyriq3z89bE2BsrKkUNpFDXhRxBHstENKnWlvEkaS7hd5UgjRIpQZmaXT2vrEJx8Y0E5mpowr9FVsg==",
+      "path": "kook.net.websocket/0.11.0",
+      "hashPath": "kook.net.websocket.0.11.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bwGMrRcAMWx2s/RDgja97p27rxSz2pEQW0+rX5cWAUWVETVJ/eyxGfjAl8vuG5a+lckWmPIE+vcuaZNVB5YDdw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.3",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512"
+    },
+    "System.Interactive.Async/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ckj+tg2BVOZ0oLp7FAbjfvRyA/BMkUhVxROLd+x22zncRR6KD7CdFzAYp+9Mo2cedxAMo2X9ZNyhZu68jdDITw==",
+      "path": "system.interactive.async/7.0.0",
+      "hashPath": "system.interactive.async.7.0.0.nupkg.sha512"
+    },
+    "System.Linq.Async/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A2Wci92Oyuodi8YLMQCJJ0vHqzgRFgEUG1K6tQNcoxHd3w05B1LvGzXvxQnGYPIL4Cr4hicHytpk2F2Jx8TZHg==",
+      "path": "system.linq.async/7.0.0",
+      "hashPath": "system.linq.async.7.0.0.nupkg.sha512"
+    },
+    "System.Linq.AsyncEnumerable/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t1jnw7So3eeZVemma+82w+Y394oPX1bebkr3gY3IzyotP3kKC/JWwGRz2WssoUFODWWvkACT2hXliumgCHu9LQ==",
+      "path": "system.linq.asyncenumerable/10.0.0",
+      "hashPath": "system.linq.asyncenumerable.10.0.0.nupkg.sha512"
+    }
+  }
+}

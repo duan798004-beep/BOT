@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "i6NxsHfrSB8=",
+  "success": true,
+  "projectFilePath": "D:\\prowork\\vs2022\\project\\KOOK\\kookbot\\kookbot\\kookbot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\kook.net\\0.11.0\\kook.net.0.11.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\kook.net.commands\\0.11.0\\kook.net.commands.0.11.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\kook.net.core\\0.11.0\\kook.net.core.0.11.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\kook.net.pipe\\0.11.0\\kook.net.pipe.0.11.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\kook.net.rest\\0.11.0\\kook.net.rest.0.11.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\kook.net.webhook\\0.11.0\\kook.net.webhook.0.11.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\kook.net.websocket\\0.11.0\\kook.net.websocket.0.11.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.3\\microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.interactive.async\\7.0.0\\system.interactive.async.7.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.linq.async\\7.0.0\\system.linq.async.7.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.linq.asyncenumerable\\10.0.0\\system.linq.asyncenumerable.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
